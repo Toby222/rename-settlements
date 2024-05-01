@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    <RenameSettlements.SettingsCategory>Rename Settlements</RenameSettlements.SettingsCategory>
+    <RenameSettlements.RenameSettlements>Change which settlements can be renamed.\nSelect the settlement in the world map to rename them.\nYou can only rename one settlement at a time.</RenameSettlements.RenameSettlements>
+    <RenameSettlements.RenameLabel>Rename</RenameSettlements.RenameLabel>
+    <RenameSettlements.RenameDesc>Rename this settlement</RenameSettlements.RenameDesc>
+    <RenameSettlements.RenameColonies>Rename Player Settlements</RenameSettlements.RenameColonies>
+    <RenameSettlements.RenameOthers>Rename Non-Player Settlements</RenameSettlements.RenameOthers>
+</LanguageData>
