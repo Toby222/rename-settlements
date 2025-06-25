@@ -1,0 +1,12 @@
+Template for RimWorld modding on NixOS
+
+Expects the following VSCode extensions
+- editorconfig.editorconfig
+- ms-dotnettools.vscode-dotnet-runtime
+- ms-dotnettools.csharp
+
+On NixOS, I use this for my vscodium settings:
+```nix
+    "dotnetAcquisitionExtension.allowInvalidPaths" = true;
+    "dotnetAcquisitionExtension.sharedExistingDotnetPath" = "${with pkgs.dotnetCorePackages; combinePackages [ sdk_9_0 ]}/share/dotnet/dotnet";
+```
